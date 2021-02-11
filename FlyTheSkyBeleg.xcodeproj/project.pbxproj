@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940C456825D07BD700F26BD0 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C456725D07BD700F26BD0 /* MenuScene.swift */; };
+		940C456B25D07D7B00F26BD0 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940C456A25D07D7B00F26BD0 /* Support.swift */; };
+		94B1487725D054020053BFD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1487625D054020053BFD3 /* AppDelegate.swift */; };
+		94B1487925D054020053BFD3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1487825D054020053BFD3 /* GameViewController.swift */; };
+		94B1487C25D054020053BFD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B1487A25D054020053BFD3 /* Main.storyboard */; };
+		94B1487F25D054020053BFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B1487D25D054020053BFD3 /* LaunchScreen.storyboard */; };
+		94B1488225D054020053BFD3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94B1486C25D054020053BFD3 /* GameScene.sks */; };
+		94B1488325D054020053BFD3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B1486D25D054020053BFD3 /* GameScene.swift */; };
+		94B1488425D054020053BFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B1486E25D054020053BFD3 /* Assets.xcassets */; };
+		94B148A725D076E50053BFD3 /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94B148A625D076E50053BFD3 /* MenuScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		94B1489F25D05A300053BFD3 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		940C456725D07BD700F26BD0 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		940C456A25D07D7B00F26BD0 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		94B1486C25D054020053BFD3 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		94B1486D25D054020053BFD3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		94B1486E25D054020053BFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94B1487325D054020053BFD3 /* FlyTheSkyBeleg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyTheSkyBeleg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B1487625D054020053BFD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94B1487825D054020053BFD3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		94B1487B25D054020053BFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B1487E25D054020053BFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94B1488025D054020053BFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B148A625D076E50053BFD3 /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B1487025D054020053BFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B1486525D054020053BFD3 = {
+			isa = PBXGroup;
+			children = (
+				94B1486A25D054020053BFD3 /* FlyTheSkyBeleg Shared */,
+				94B1487425D054020053BFD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B1486A25D054020053BFD3 /* FlyTheSkyBeleg Shared */ = {
+			isa = PBXGroup;
+			children = (
+				94B148A625D076E50053BFD3 /* MenuScene.sks */,
+				94B1487625D054020053BFD3 /* AppDelegate.swift */,
+				94B1487825D054020053BFD3 /* GameViewController.swift */,
+				94B1487A25D054020053BFD3 /* Main.storyboard */,
+				94B1487D25D054020053BFD3 /* LaunchScreen.storyboard */,
+				94B1488025D054020053BFD3 /* Info.plist */,
+				94B1486C25D054020053BFD3 /* GameScene.sks */,
+				94B1486D25D054020053BFD3 /* GameScene.swift */,
+				94B1486E25D054020053BFD3 /* Assets.xcassets */,
+				940C456725D07BD700F26BD0 /* MenuScene.swift */,
+				940C456A25D07D7B00F26BD0 /* Support.swift */,
+				94B1487525D054020053BFD3 /* FlyTheSkyBeleg iOS */,
+			);
+			path = "FlyTheSkyBeleg Shared";
+			sourceTree = "<group>";
+		};
+		94B1487425D054020053BFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B1487325D054020053BFD3 /* FlyTheSkyBeleg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B1487525D054020053BFD3 /* FlyTheSkyBeleg iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "FlyTheSkyBeleg iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B1487225D054020053BFD3 /* FlyTheSkyBeleg iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B1488725D054020053BFD3 /* Build configuration list for PBXNativeTarget "FlyTheSkyBeleg iOS" */;
+			buildPhases = (
+				94B1486F25D054020053BFD3 /* Sources */,
+				94B1487025D054020053BFD3 /* Frameworks */,
+				94B1487125D054020053BFD3 /* Resources */,
+			);
+			buildRules = (
+				94B1489F25D05A300053BFD3 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "FlyTheSkyBeleg iOS";
+			productName = "FlyTheSkyBeleg iOS";
+			productReference = 94B1487325D054020053BFD3 /* FlyTheSkyBeleg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B1486625D054020053BFD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					94B1487225D054020053BFD3 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 94B1486925D054020053BFD3 /* Build configuration list for PBXProject "FlyTheSkyBeleg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B1486525D054020053BFD3;
+			productRefGroup = 94B1487425D054020053BFD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B1487225D054020053BFD3 /* FlyTheSkyBeleg iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B1487125D054020053BFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B1488225D054020053BFD3 /* GameScene.sks in Resources */,
+				94B1487C25D054020053BFD3 /* Main.storyboard in Resources */,
+				94B1487F25D054020053BFD3 /* LaunchScreen.storyboard in Resources */,
+				94B148A725D076E50053BFD3 /* MenuScene.sks in Resources */,
+				94B1488425D054020053BFD3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B1486F25D054020053BFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B1488325D054020053BFD3 /* GameScene.swift in Sources */,
+				940C456B25D07D7B00F26BD0 /* Support.swift in Sources */,
+				940C456825D07BD700F26BD0 /* MenuScene.swift in Sources */,
+				94B1487925D054020053BFD3 /* GameViewController.swift in Sources */,
+				94B1487725D054020053BFD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94B1487A25D054020053BFD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B1487B25D054020053BFD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94B1487D25D054020053BFD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B1487E25D054020053BFD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B1488525D054020053BFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94B1488625D054020053BFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		94B1488825D054020053BFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "";
+				"INFOPLIST_FILE[sdk=*]" = "FlyTheSkyBeleg Shared/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacki.company.FlyTheSkyBeleg;
+				PRODUCT_NAME = FlyTheSkyBeleg;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		94B1488925D054020053BFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				"INFOPLIST_FILE[sdk=*]" = "FlyTheSkyBeleg Shared/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zacki.company.FlyTheSkyBeleg;
+				PRODUCT_NAME = FlyTheSkyBeleg;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B1486925D054020053BFD3 /* Build configuration list for PBXProject "FlyTheSkyBeleg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B1488525D054020053BFD3 /* Debug */,
+				94B1488625D054020053BFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B1488725D054020053BFD3 /* Build configuration list for PBXNativeTarget "FlyTheSkyBeleg iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B1488825D054020053BFD3 /* Debug */,
+				94B1488925D054020053BFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94B1486625D054020053BFD3 /* Project object */;
+}
